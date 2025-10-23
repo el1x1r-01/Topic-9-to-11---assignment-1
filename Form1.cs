@@ -391,6 +391,26 @@ namespace Topic_9_to_11___assignment_1
             {
                 lblOutput.Text = num1 + calculatorOperator + num2 + "\n = " + result;
             }
+
+            btnAverage.Enabled = false;
+            btnExponent.Enabled = false;
+            btnSquareRoot.Enabled = false;
+            btnPercentage.Enabled = false;
+            btnDivide.Enabled = false;
+            btnMultiply.Enabled = false;
+            btnSubtract.Enabled = false;
+            btnAdd.Enabled = false;
+            btnInputDecimal.Enabled = false;
+            btnInput1.Enabled = false;
+            btnInput2.Enabled = false;
+            btnInput3.Enabled = false;
+            btnInput4.Enabled = false;
+            btnInput5.Enabled = false;
+            btnInput6.Enabled = false;
+            btnInput7.Enabled = false;
+            btnInput8.Enabled = false;
+            btnInput9.Enabled = false;
+            btnInput0.Enabled = false;
         }
 
         private void btnAdd_Click(object sender, EventArgs e)
@@ -428,6 +448,16 @@ namespace Topic_9_to_11___assignment_1
             btnAdd.Enabled = false;
             btnInputDecimal.Enabled = false;
             btnSquareRoot.Enabled = true;
+            btnInput1.Enabled = true;
+            btnInput2.Enabled = true;
+            btnInput3.Enabled = true;
+            btnInput4.Enabled = true;
+            btnInput5.Enabled = true;
+            btnInput6.Enabled = true;
+            btnInput7.Enabled = true;
+            btnInput8.Enabled = true;
+            btnInput9.Enabled = true;
+            btnInput0.Enabled = true;
         }
     }
 }
